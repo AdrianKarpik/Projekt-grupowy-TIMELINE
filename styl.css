@@ -1,0 +1,86 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: grey;
+
+	
+}
+fieldset {
+  margin-left: auto; 
+  margin-right: auto;
+  width: 100%;
+  max-width: 900px;
+  background: rgba(0,0,0,0.8);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,255,0.9);
+	}
+
+
+input, textarea, hr  {
+	border-radius: 4px;
+	border:2px solid blue;
+	background-color: grey;
+	box-shadow: 0 0 10px rgba(0,0,255,0.9);
+}
+
+
+
+label, p  {
+	color: white;
+}
+
+textarea{
+	resize: none;
+}
+
+.timeline{
+	margin-left: auto;
+	margin-right: auto;
+
+	
+
+}
+.one{
+	
+	box-shadow: 0 0 20px rgba(0,0,255,0.9);
+	width: 90%;
+	min-width: 500px;
+	text-align: center;
+	min-height: 90px;
+	margin: 15px;
+	background: rgba(0,0,0,0.8);
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+button{
+	float: right;
+	background:white;
+	border: none;
+	padding: 5px;
+	border-radius: 5px;
+	margin: 5px;
+	width: 50px;
+
+}
+.confirm:hover{
+	background-color: green;
+}
+.remove:hover{
+	background-color: red;
+}
+
+.vector{
+	box-shadow: 0 0 20px rgba(0,0,255,0.9);
+	background: rgba(0,0,0,0.8);
+	width: 10px;
+	height: 90px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
